@@ -16,6 +16,7 @@
 a, div, p, ul, li {
   margin: 0;
   padding: 0;
+  text-decoration: none;
 }
 
 section {
@@ -78,9 +79,17 @@ header ul li {
           box-sizing: border-box;
 }
 
+header ul li a {
+  color: #fff;
+}
+
 header ul li:hover {
   background-color: rgba(255, 255, 255, 0.1);
   border-bottom: 2px solid red;
+}
+
+header ul li:hover a {
+  color: #fff;
 }
 
 header ul .active {
@@ -155,6 +164,10 @@ header ul .active {
 
 #our-work button:hover {
   color: #fff;
+}
+
+#testimonal h2 {
+  margin-bottom: 50px;
 }
 
 #testimonal .owl-carousel {
